@@ -1,0 +1,16 @@
+### get users
+
+http://localhost:3445/users
+
+
+//post user
+###
+POST http://localhost:3445/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "test",
+    "lastName" : "test",
+    "email": "test@gmail.com",
+    "password": "hello123"
+}
